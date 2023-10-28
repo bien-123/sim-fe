@@ -1,0 +1,21 @@
+---
+import Header from "src/pages/header.astro";
+import Body from "src/pages/body.astro";
+import Footer from "src/pages/footer.astro";
+import '../assets/scss/global.scss'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Header></Header>
+		<slot/>
+		<Footer></Footer>
+	</body>
+</html>
