@@ -1,3 +1,5 @@
+import logo from '@assets/images/logo';
+
 const Content = () => {
     return (
         <div>

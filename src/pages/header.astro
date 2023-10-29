@@ -1,7 +1,50 @@
 ---
-// import Header from "../components/"
+import icon from "@assets/images/icon/index.tsx"
+import logo from "@assets/images/logo/index.tsx";
+interface ImageMetadata {
+  src: string;
+  width: number;
+  height: number;
+  format: string;
+}
 ---
 
-<div>
-    <p>Header</p>
+<div class="w-full bg-[#EE6D6B]">
+    <div class="flex w-[1280px] m-auto justify-center items-center h-[52px] relative">
+        <div class="mr-3">
+            <svg width="37" height="25" viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_827_70279)">
+                <path d="M54.1308 40L5.86461 40C4.30922 40 2.81753 39.3835 1.71771 38.2862C0.617879 37.1888 -1.07739e-07 35.7005 -1.07739e-07 34.1486L-1.07739e-07 5.85143C-1.07739e-07 4.29953 0.617879 2.8112 1.71771 1.71384C2.81753 0.616487 4.30922 1.90322e-07 5.86461 1.90322e-07L45.7921 1.90322e-07C46.1095 -0.000125686 46.4238 0.0621894 46.717 0.183381C47.0103 0.304573 47.2767 0.482262 47.5011 0.706285L59.2921 12.4709C59.5167 12.6947 59.6947 12.9605 59.8162 13.2531C59.9377 13.5457 60.0001 13.8593 60 14.176V34.1509C59.9997 34.9195 59.8476 35.6805 59.5525 36.3905C59.2573 37.1004 58.8249 37.7454 58.2799 38.2886C57.7348 38.8318 57.0879 39.2625 56.376 39.5561C55.6641 39.8498 54.9012 40.0006 54.1308 40Z" fill="#F3543F"/>
+                <path d="M29.9414 28.5455L29.9414 11.4545C29.9414 9.96083 28.7475 8.75 27.2748 8.75L10.1667 8.75C8.69397 8.75 7.50011 9.96083 7.50011 11.4545L7.50011 28.5455C7.50011 30.0392 8.69397 31.25 10.1667 31.25L27.2748 31.25C28.7475 31.25 29.9414 30.0392 29.9414 28.5455Z" fill="#FDCB77"/>
+                <line x1="7.5" y1="14.5" x2="13.75" y2="14.5" stroke="#F49D03"/>
+                <line x1="23.75" y1="14.5" x2="30" y2="14.5" stroke="#F49D03"/>
+                <line x1="23.75" y1="19.5" x2="30" y2="19.5" stroke="#F49D03"/>
+                <line x1="23.75" y1="24.5" x2="30" y2="24.5" stroke="#F49D03"/>
+                <path d="M46 14H55" stroke="#EFC071" stroke-width="3" stroke-linecap="round"/>
+                <path d="M46 19H55" stroke="#EFC071" stroke-width="3" stroke-linecap="round"/>
+                <path d="M46 24H55" stroke="#EFC071" stroke-width="3" stroke-linecap="round"/>
+                <path d="M50 29H55" stroke="#EFC071" stroke-width="3" stroke-linecap="round"/>
+                <line x1="7.5" y1="19.5" x2="13.75" y2="19.5" stroke="#F49D03"/>
+                <line x1="7.5" y1="24.5" x2="13.75" y2="24.5" stroke="#F49D03"/>
+                <line x1="13.5" y1="29" x2="13.5" y2="14" stroke="#F49D03"/>
+                <line x1="23.25" y1="31.25" x2="23.25" y2="8.75" stroke="#F49D03"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_827_70279">
+                <rect width="40" height="60" fill="white" transform="matrix(0 1 -1 0 60 0)"/>
+                </clipPath>
+                </defs>
+            </svg>
+        </div>
+        <p class="text-[#fff] text-lg font-bold">
+            Ưu đãi tặng sim !!! Sở hữu ngay sim số đẹp chỉ với 0đ
+        </p>
+        <div class="absolute right-0">
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Live area">
+                <path id="Vector" d="M5.70711 4.79289C5.31658 4.40237 4.68342 4.40237 4.29289 4.79289C3.90237 5.18342 3.90237 5.81658 4.29289 6.20711L8.58579 10.5L4.29289 14.7929C3.90237 15.1834 3.90237 15.8166 4.29289 16.2071C4.68342 16.5976 5.31658 16.5976 5.70711 16.2071L10 11.9142L14.2929 16.2071C14.6834 16.5976 15.3166 16.5976 15.7071 16.2071C16.0976 15.8166 16.0976 15.1834 15.7071 14.7929L11.4142 10.5L15.7071 6.20711C16.0976 5.81658 16.0976 5.18342 15.7071 4.79289C15.3166 4.40237 14.6834 4.40237 14.2929 4.79289L10 9.08579L5.70711 4.79289Z" fill="#5B6876"/>
+                </g>
+            </svg>                
+        </div>
+    </div>
 </div>
