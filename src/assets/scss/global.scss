@@ -2,3 +2,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.out-line-none {
+    outline: none;
+}
+
+// table style
+table {
+    width: 100%;
+    border-radius: 20px;
+    background: #fafafa;
+}
+tr {
+    border-radius: 20px;
+}
+th,
+td {
+    padding: 5px;
+}
+th {
+    text-align: center;
+    background: #f7f7f7;
+    color: #000;
+}
+th:nth-child(1) {
+    border-radius: 20px 0px 0px 0px;
+}
+
+th:nth-last-child(1) {
+    border-radius: 0px 20px 0px 0px;
+}
+
+.hover-button-present {
+    &:hover {
+        background-color: #fc553d;
+        color: #fff;
+    }
+}
+
+.sim-present {
+    color: #48484a;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 24px;
+    i {
+        color: #fc553d;
+        font-style: normal !important;
+    }
+}
+
+.table-present {
+    border-bottom: 0.5px solid rgba(214, 214, 214, 0.3);
+    &:last-child {
+        border-bottom: none !important;
+    }
+}
